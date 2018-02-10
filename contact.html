@@ -56,12 +56,26 @@
     <div class="row">
       <div class="col col-md-8 main-section">
         <h1>About Me</h1>
-
-        <img src="assets/images/graham_basicportfolio.jpg" class="img-responsive auth-image" alt="Graham Neal">
-        <p>I am full stack developer living in Richmond, Virginia. I have worked in various connections to the tech world, and
-          recently decided to pursue a deeper knowledge of programming languages on the web.</p>
-        <p>Away from work, my wife and I spend our free time trying out new restaurants in town or smuggling a bottle of wine
-          into the movie theatre. I recently took up triathlon as a way to dispose of cash and time.</p>
+        <form action="#" method="post">
+          <div class="contact">
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name" name="visitor_name" value="John Smith">
+          </div>
+          <div class="contact">
+            <label for="email">Email</label>
+            <br>
+            <input type="email" id="email" name="visitor_email" value="example@gmail.com">
+          </div>
+          <div class="contact">
+            <label for="msg">Message</label>
+            <br>
+            <textarea id="msg" name="visitor_message"></textarea>
+          </div>
+          <div class="button">
+            <button type="submit" id="contact-button">Submit</button>
+          </div>
+        </form>
       </div>
       <div class="col col-md-4 col-sm-12 sidebar">
         <h2>Connect with Me</h2>
